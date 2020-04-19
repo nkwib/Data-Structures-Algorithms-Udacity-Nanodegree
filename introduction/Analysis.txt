@@ -1,0 +1,17 @@
+Task 0:
+the run time complexity is O(1) since the look up time for the element at position "i" in an array is constant
+
+Task 1:
+since there are two for loops not nested the runtime is O(2n) which is simplified to O(n)
+
+Task 2:
+since there are two for loops not nested the runtime is O(2n) which is simplified to O(n)
+
+Task2:
+there is a first for loop followed by a max() function. these two are both O(n) so the final runtime is like the precedent one: O(n)
+
+Task3:
+there is a for loop but soon after there's a sort algorithm which is O(nlog(n)). since O(nlog(n)) is worse than O(n) the final runtime is O(nlog(n))
+
+Task4:
+Like the previous task the worse runtime is determined by the sorting algorithms at the end, which results in a runtime of O(nlog(n))
